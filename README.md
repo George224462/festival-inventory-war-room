@@ -1,16 +1,28 @@
 # 🎪 Festival Inventory War Room: Supply Chain Analytics
-An end-to-end supply chain project using ABC-XYZ Analysis to optimize inventory for a 100,000-attendee music festival.
 
-## 📊 Business Logic Applied
-- **ABC Analysis:** Classified items by total financial impact (80/15/5 rule).
-- **XYZ Analysis:** Measured demand volatility using the Coefficient of Variation.
-- **Safety Stock:** Calculated buffer stock at a 95% service level to prevent stockouts.
-- **EOQ:** Optimized order sizes to minimize holding vs. ordering costs.
+An end-to-end supply chain engineering project optimizing stock allocation, safety stock, and reorder points for a 100,000-attendee music festival across 500 SKUs.
 
-## 🛠️ Project Stack
-- **Python:** Data generation and automated inventory engine.
-- **SQL:** Operational queries for stockout risk and vendor management.
-- **Tableau:** Executive "War Room" dashboard for real-time inventory tracking.
+---
 
-## 🔗 Live Dashboard
-[View Interactive Inventory Dashboard Here](PASTE_YOUR_TABLEAU_URL_HERE)
+## 📌 Executive Summary
+- **Total SKUs Tracked:** 500 Inventory Items
+- **Class A Items (Top 80% Capital Spend):** 207 SKUs
+- **Critical Reorder Alerts:** 313 SKUs below Reorder Point (ROP)
+- **Service Level Target:** 95% Availability ($Z = 1.645$)
+
+---
+
+## 🛠️ Project Structure
+
+
+---
+
+## 📊 ABC-XYZ Matrix Visualization
+Below is the 3x3 matrix showing inventory allocation across financial value (A/B/C) and demand volatility (X/Y/Z):
+
+![ABC-XYZ Matrix](images/abc_xyz_matrix.png)
+
+---
+
+## 🔗 Interactive Executive Dashboard
+👉 **[View Interactive Tableau War Room Dashboard](https://prod-ch-a.online.tableau.com/t/mosestv2244-638548aa76/authoring/FestivalInventoryWarRoom/Dashboard1#1)**
